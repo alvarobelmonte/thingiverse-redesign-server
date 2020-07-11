@@ -1,0 +1,30 @@
+{
+  "name": "thingiverse-redesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "npm run server"
+  },
+  "author": "alvarobelmonte",
+  "license": "ISC",
+  "dependencies": {
+    "apollo": "^2.19.1",
+    "apollo-datasource-rest": "^0.6.5",
+    "apollo-server": "^2.9.6",
+    "apollo-server-express": "^2.9.6",
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "server": "^1.0.19"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
+  }
+}
